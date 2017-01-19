@@ -1,6 +1,6 @@
 # Forum
 
-Demo is [here](google.com).
+Demo is [here](https://htmlpreview.github.io/?https://github.com/web-man/faks-forum/blob/master/app/index.html).
 
 There is 3 pages:
 - Index
