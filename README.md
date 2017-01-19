@@ -5,7 +5,7 @@ Demo is [here](https://htmlpreview.github.io/?https://github.com/web-man/faks-fo
 There is 3 pages:
 - Index
 - Sub Forum
-- Topix
+- Topic
 
 ### Usage
 
