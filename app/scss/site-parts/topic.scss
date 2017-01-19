@@ -1,0 +1,62 @@
+// Topic styles
+
+$gray-border: 1px solid #d6d6d6;
+
+.topic {
+  h2 {
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  .all-messages {
+    padding-top: 30px;
+    border-top: 2px solid $green;
+    .message {
+      border-bottom: $gray-border;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      .user {
+        @include user;
+      }
+      .message-info {
+        border-bottom: 1px solid #d6d6d6;
+        margin-bottom: 20px;
+        p {
+          display: inline-block;
+          font-size: 0.8em;
+          margin-bottom: 8px;
+        }
+        a {
+          display: inline-block;
+          font-size: 0.8em;
+          color: #eb5a49;
+          font-weight: 600;
+          margin-top: 6px;
+        }
+      }
+    }
+    .message:last-child {
+      border: none;
+    }
+  }
+  .write-message {
+    width: 60%;
+    margin: 20px auto;
+    h6 {
+      margin-bottom: 15px;
+    }
+    textarea  {
+      width: 100%;
+      border: 2px solid #eee;
+    }
+    button {
+      width: 100px;
+      height: 30px;
+      background-color: $green;
+      border: none;
+      margin: 10px auto;
+      color: #fff;
+      display: block;
+      border-radius: 4px;
+    }
+  }
+}

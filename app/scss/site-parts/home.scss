@@ -1,0 +1,77 @@
+// Main styles
+
+// Colors
+$green: #54ae68;
+
+@mixin user {
+  img {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 50px;
+  }
+  .user-right {
+    display: inline-block;
+    margin-left: 10px;
+    p {
+      margin-bottom: 5px;
+    }
+    .name {
+      color: $green;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .date {
+      font-size: 12px;
+    }
+  }
+}
+
+main {
+  padding-top: 2em;
+  .main-headings {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 25px;
+    font-family: serif;
+  }
+  .all-forums {
+    padding-top: 10px;
+    border-top: 2px solid $green;
+    .sub-forums {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      padding-left: 30px;
+      border-bottom: 1px solid #d6d6d6;
+      .sub-forum {
+        margin-left: -15px;
+      }
+      a {
+        color: #333;
+        text-decoration: none;
+        h3 {
+          margin-left: -30px;
+          font-size: 1.5em;
+          font-weight: 600;
+          i {
+            font-size: 20px;
+            color: $green;
+            vertical-align: inherit;
+            margin-right: 10px;
+          }
+        }
+      }
+      p {
+        font-size: 0.9em;
+      }
+      .amount {
+        font-weight: 700;
+      }
+      .user {
+        @include user;
+      }
+    }
+    .sub-forums:last-child {
+      border-bottom: none;
+    }
+  }
+}

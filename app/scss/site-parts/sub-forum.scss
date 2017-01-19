@@ -1,0 +1,21 @@
+.sub-forum-page {
+  main {
+    .sub-forums {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      .sub-forum {
+        padding-top: 1em;
+        h3 {
+          font-size: 1.2em;
+          i {
+            font-size: 15px;
+            vertical-align: top;
+          }
+        }
+      }
+      .amount {
+        padding-top: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import "scss-bootstrap/bootstrap";
+@import "site-parts/home";
+@import "site-parts/header";
+@import "scss-awesome/font-awesome";
+@import "site-parts/footer";
+@import "site-parts/sub-forum";
+@import "site-parts/topic";
+
+// Main styles
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+body {
+  font: {
+    family: 'Open Sans', sans-serif;
+    weight: normal;
+    style: normal;
+  }
+}
